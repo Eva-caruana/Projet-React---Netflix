@@ -1,0 +1,49 @@
+/* ------------------STYLE------------------------ */
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* GLOBALS */
+
+body {
+  background-color: black;
+  color: white;
+  width: 0 auto;
+}
+
+.logo img {
+  width: 135px;
+  margin: 30px 0 30px 60px;
+}
+
+/* MOVIES---------------- */
+.category-lines {
+  margin-left: 74px;
+}
+
+h2 {
+  font-family: "Roboto", "sans-sérif";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* SCROLLABLE IMAGES  */
+.movies-images {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.movies-images img {
+  width: 221px;
+  height: 125px;
+  object-fit: cover;
+  flex: 0;
+  display: block;
+}
+
+/* REMOVE CROLLBAR */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
