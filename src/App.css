@@ -35,9 +35,7 @@ h2 {
 }
 
 .movies-images img {
-  width: 221px;
   height: 125px;
-  object-fit: cover;
   flex: 0;
   display: block;
 }
