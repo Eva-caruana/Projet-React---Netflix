@@ -1,16 +1,88 @@
-# React + Vite
+# Front-end Netflix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
+- About The Project  
+- Built With  
+- Getting Started  
+- Usage  
+- Roadmap  
+- Contact  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About The Project
 
-## React Compiler
+This project is a frontend application inspired by the Netflix interface, developed as part of Le Reacteur bootcamp.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It displays movie categories and their associated images using a dynamic layout built with React.
 
-## Expanding the ESLint configuration
+The interface reproduces a Netflix-like experience with horizontal scrolling rows for each category.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Main features:
+
+- Display of movie categories  
+- Horizontal scrolling rows (carousel effect)  
+- Dynamic rendering of images from a JSON dataset  
+- Netflix inspired layout  
+
+This project helped me understand how to work with nested data, map through arrays, and build dynamic user interfaces in React.
+
+---
+
+## Built With
+
+- React
+- Vite 
+- JavaScript  
+ 
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js installed.
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Eva-caruana/Projet-React---Netflix.git
+cd Projet-React---Netflix
+```
+
+Install dependencies:
+```bash
+yarn install
+```
+
+Start the development server:
+```bash
+yarn dev
+```
+
+
+---
+
+
+## Usage
+
+### Features
+
+- Display movie categories  
+- Horizontal scrolling per category  
+- Render multiple images per category  
+- Use of nested `.map()` for dynamic rendering  
+
+## Roadmap
+
+- Improve responsiveness
+
+## Contact
+
+Eva Caruana  
+
+GitHub: https://github.com/Eva-caruana  
+Project: https://github.com/Eva-caruana/Projet-React---Netflix.git
