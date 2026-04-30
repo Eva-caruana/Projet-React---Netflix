@@ -14,7 +14,7 @@ function App() {
             console.log("=>>>", element);
             return (
               <section className="category-lines">
-                <h2 className="category-title">{element.category}</h2>
+                <h2>{element.category}</h2>
                 <div className="movies-images">
                   {element.images.map((element, index) => {
                     // console.log("here===>", element, index);
